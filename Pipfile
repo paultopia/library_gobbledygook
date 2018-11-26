@@ -19,6 +19,7 @@ plotly = {version = "==3.4.1"}
 seaborn = {version = "==0.9.0"}
 beautifulsoup4 = {version = "==4.6.3"}
 arviz = {version = "==0.2.1"}
+causalinference = "*"
 
 [dev-packages]
 
