@@ -36,6 +36,6 @@ def resample(pairs):
     sample = pairs[indices]
     return beta(sample)
 
-bootstrap_samples = np.array([resample(pairs) for x in range(1000)])
+bootstrap_samples = np.array([resample(pairs) for x in range(10000)])
 print(np.percentile(bootstrap_samples, 5))
 print(np.percentile(bootstrap_samples, 95))
